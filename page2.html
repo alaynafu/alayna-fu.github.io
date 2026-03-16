@@ -16,8 +16,6 @@
   <main?>
     <h2>Methodology</h2> 
 
-    <img src="topic-image.jpg" alt="An image about my topic" />
-
     <h3>Methods</h3>
     <p>
       ChIPMOD models transcription through the actions of RNA polymerase II, focusing on initiation, elongation, and termination while testing different pausing mechanisms of the polymerase. Updating ChIPMOD to better represent the physical dynamics of RNAPII, we addressed several inconsistencies such as the binding of polymerase to the chromatin, processivity along the gene, and the termination of the polymerase on the gene. Additionally, we focused on the stochastic models of ChIPMOD, going from uniform randomness to a discrete probability distribution. After comparing results from the original and updated version of ChIPMOD to experimental data, we saw that the updated version better represented the data, yet we observed periodicity within the results that was found to be a numerical artifact within the algorithm. Deciding to start from scratch, we looked at initiation, elongation, and termination similar to ChIPMOD but with emphasis on more statistically representative reaction rates with the Gillespie algorithm along with position-specific parameters to directly match the experimental data. Out of all three models, the Gillespie model is observed to best match the experimental data but needs more work in parameter optimization.
